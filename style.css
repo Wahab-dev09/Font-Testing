@@ -11,7 +11,7 @@
     box-sizing: border-box;
 }
 h1{    
-    font-size: 48px;
+    font-size: 60px;
     text-align: center;
     font-family: 'Unability', sans-serif;
 }
@@ -52,7 +52,7 @@ div{
     justify-content: start;
     gap: 20px;
     align-items: center;
-    height: 100vh;
+    height: 100dvh;
 }
 .box{
     width: 95%;
