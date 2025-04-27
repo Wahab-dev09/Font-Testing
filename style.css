@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Manrope:wght@200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 @font-face {
     font-family: 'Unability'; /* You can name it anything */
-    src: url('./fonts/Unability.ttf') format('truetype');
+    src: url('./fonts/Unability.otf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
@@ -27,7 +27,7 @@ p{
     color: #5E5E5E;
 }
 button{
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
     font-weight: 600;
     font-family: Manrope;
