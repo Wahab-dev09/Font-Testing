@@ -49,8 +49,11 @@ button{
     outline: 1px solid #EEBEB3;
     outline-offset: 1.5px;
     border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
     border-radius: 10px;
-    padding: 8px 25px;
+    padding: 9px 25px;
 }
 h2{
     font-size: 36px;
