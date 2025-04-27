@@ -10,13 +10,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+nav{
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+}
+.logo{
+    font-size: 20px;
+    text-align: start;
+    font-weight: 700;
+    font-family: Manrope;
+    letter-spacing: -1.2px;
+    color: #272727;
+}
 h1{    
-    font-size: 60px;
+    font-size: 48px;
     text-align: center;
     font-family: 'Unability', sans-serif;
 }
 h2,h3,h4,h5,h6{
-    font-family: MAnrope;
+    font-family: Manrope;
 }
 p{
     font-size: 16px;
@@ -47,6 +60,7 @@ h2{
 }
 div{
     width: 100%;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: start;
