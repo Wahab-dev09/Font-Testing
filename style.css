@@ -12,18 +12,31 @@
 }
 nav{
     width: 100%;
+    display: flex;
+    justify-content: space-between;
     padding: 10px 20px;
     background-color: #f1f1f1;
 }
 .logo{
-    font-size: 20px;
+    font-size: 12px;
     text-align: start;
     font-weight: 700;
-    font-family: Manrope;
-    letter-spacing: -1.2px;
+    font-family: 'Unability';
+    letter-spacing: px;
     color: #272727;
 }
+img{
+    width: 18px;
+}
+div img{
+    width: 95vw;
+    border-radius: 150px;
+    outline: 1px solid rgba(128, 128, 128, 0.26);
+    outline-offset: 2px;
+    box-shadow: 0px 5px 10px 2px rgba(128, 128, 128, 0.26);
+}
 h1{    
+    width: 100vw;
     font-size: 48px;
     text-align: center;
     font-family: 'Unability', sans-serif;
@@ -35,6 +48,7 @@ p{
     font-size: 16px;
     text-align: start;
     font-weight: 500;
+    text-align: center;
     font-family: Manrope;
     letter-spacing: -0.6px;
     color: #5E5E5E;
