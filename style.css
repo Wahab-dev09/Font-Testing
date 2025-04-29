@@ -37,14 +37,16 @@ div img{
 }
 h1{    
     width: 100vw;
-    font-size: 48px;
+    font-size: 36px;
     text-align: center;
+color: #272727;
     font-family: 'Unability', sans-serif;
 }
 h2,h3,h4,h5,h6{
     font-family: Manrope;
 }
 p{
+    width: 95vw;
     font-size: 16px;
     text-align: start;
     font-weight: 500;
