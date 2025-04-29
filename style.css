@@ -17,6 +17,12 @@ nav{
     padding: 10px 20px;
     background-color: #f1f1f1;
 }
+nav svg {
+    background-color: #eebeb356;
+    padding: 1%;
+    box-sizing: content-box;
+    border-radius: 10px;
+}
 .logo{
     font-size: 12px;
     text-align: start;
@@ -27,6 +33,13 @@ nav{
 }
 img{
     width: 18px;
+}
+.headd{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
 }
 div img{
     width: 95vw;
@@ -46,7 +59,7 @@ h2,h3,h4,h5,h6{
     font-family: Manrope;
 }
 p{
-    width: 95vw;
+    width: 90vw;
     font-size: 16px;
     text-align: start;
     font-weight: 500;
@@ -77,13 +90,13 @@ h2{
     font-family: Manrope;
     letter-spacing: -3px;
 }
-div{
+.header{
     width: 100%;
     padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: start;
-    gap: 20px;
+    gap: 25px;
     align-items: center;
     height: 100dvh;
 }
