@@ -24,9 +24,14 @@ nav svg {
 }
 .logoi{
     display: flex;
-    justify-content: center;
+    justify-content: center;;
     align-items: center;
     gap: 5px;
+}
+.logoi svg{
+    box-sizing: border-box;
+    margin-bottom: 3px;
+    border-radius: 10px;
 }
 .logo{
     font-size: 14px;
